@@ -12,6 +12,7 @@ func InitRouter() *gin.Engine {
 	router.GET("/odds", Odds)
 
 	router.POST("/user", Store)
+	router.POST("/oddp", Oddp)
 
 	router.PUT("/user/:id", Update)
 
